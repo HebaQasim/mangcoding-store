@@ -1,0 +1,55 @@
+@import './base.css';
+
+header{
+position: sticky;
+top: 0px;
+padding: 20px 0px;
+box-shadow: 0px 1.6474391222000122px 8.23719596862793px rgba(0, 0, 0, 0.1);
+
+
+}
+header .logo {
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+gap: 8px;
+}
+header .logo img{
+    width: 30px;
+}
+header .logo a{
+font-family: roboto;
+color: var(--mainColor);
+}
+header .nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.nav ul li a{
+    color: #101928;
+    font-family: var(--mainFont);
+}
+
+header .auth a{
+    font-family: var(--subFont);
+    padding: 10px 30px;
+     border-radius: 10px;
+}
+header .auth a:first-child{
+    border: 1px solid  var(--mainColor);
+    color: var(--mainColor);
+}
+header .auth a:last-child{
+    background-color: var(--mainColor);
+    color: white;
+}
+.active{
+    font-weight: 900;
+}
+@media (max-width:992px){
+    .nav{
+        display: none;
+    }
+}
