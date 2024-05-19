@@ -1,5 +1,5 @@
 @import './base.css';
-
+/*start-header*/
 header{
 position: sticky;
 top: 0px;
@@ -53,3 +53,80 @@ header .auth a:last-child{
         display: none;
     }
 }
+/*end-header*/
+/*start-footer*/
+.footer{
+    background-color: #393E46;
+   padding: 50px 0px;
+    color: #F4F4F4;
+}
+.footer .row{
+   gap: 40px;
+}
+.footer a{
+    color: #F4F4F4;
+}
+
+.footer .start-footer ,.footer .end-footer{
+    width: calc((100% - 40px ) / 2);
+}
+
+.start-footer{
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: column;
+    gap: 20px 0px;
+}
+.footer .start-footer .footer-logo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+}
+.footer .start-footer .footer-logo img{
+   width: 30px;
+}
+.footer .start-footer .footer-logo a{
+    font-size: 14px;
+ }
+.footer .start-footer p{
+    font-size: 14px;
+    font-weight: 200;
+}
+.footer .start-footer .contacts{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.footer .start-footer .contacts img{
+    width: 15px;
+    height: 15px;
+    border: #F4F4F4 solid 1px;
+    padding: 5px;
+    box-sizing: content-box;
+}
+.footer .end-footer .row{
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.footer .end-footer .footer-item{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer .end-footer h2{
+    font-size: 16px;
+}
+.footer .end-footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer .end-footer ul li a{
+    font-style: normal;
+    font-size: 12px;
+   /*end-footer*/ 
+}
+
