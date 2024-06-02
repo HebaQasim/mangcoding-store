@@ -108,16 +108,25 @@ line-height: 55px;
 .about .end-about img{
     width: 350px;
     height: 350px;
-    position: relative;
-    top: 122px;
-    
 }
+    @media(max-width:800px){
+        .about .start-about{
+          width: 100%;
+          margin-top: 10px;
+        }
+        .about .end-about{
+          width: 100%;
+          
+      }
+  
+      }  
+
 /*end about section*/
 /*start gray section*/
 
 .gray-section{
-    margin-left: 80px;
     background-color: #F5F5F5;
+   padding: 20px 0;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -131,6 +140,7 @@ line-height: 55px;
     gap: 20px;
     margin-left: 3px;
    padding: 0 0 100px 0;
+   
   
 }
 .gray-section .top p{
@@ -176,6 +186,7 @@ font-size: 10px;
 .gray-section .buttom{
     font-family: var(--mainFont);
     padding: 0px 10px 0px 10px;
+   
 }
 .gray-section .buttom .start-buttom-gray-section{
 width: calc( ( 100% - 100px ) / 4 );
@@ -289,7 +300,16 @@ color: var(--mainColor);
 .course-stats .stat-label{
     color: #DDDDDD;
 }
+@media(max-width:992px){
+    .selectedCourse .start-selectedCourse{
+      width: 100%;
+    }
+    .selectedCourse .end-selectedCourse{
+      width: 100%;
+      
+  }
 
+  }
 /*end selected course*/
 /*start available course*/
 .courses{
@@ -394,6 +414,22 @@ background-color: var(--mainColor);
       width: 100px;
      
     }
+    @media(max-width:992px){
+      .courses .course-items{
+        width: 100%;
+      }
+      .courses .course-description{
+        width: 100%;
+        justify-content: center;
+    }
+
+    }
+    @media(max-width:500px){
+        .courses .course-items .course{
+          width: 100%;
+          
+        }
+      }
 /*end available course*/
 
 /*start testimonial*/
