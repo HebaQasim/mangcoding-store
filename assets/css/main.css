@@ -245,8 +245,15 @@ color: var(--mainColor);
       align-items: center;
       align-content: center;
     }
-
-
+    @media(max-width:992px){
+        .gray-section .buttom .start-buttom-gray-section{
+          width: 100%;
+        }
+        .gray-section .buttom .end-buttom-gray-section{
+          width: 100%;
+          
+      }
+    }
 /*end gray section*/
 /*start selected course*/
 .selectedCourse{
