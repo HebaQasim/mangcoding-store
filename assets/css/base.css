@@ -12,13 +12,11 @@
     --subFont:"Inter";
     --mainColor:#545BE8;
 }
-body{
-    height: 5000px;
-}
+
 
 
 .container{
-    width: calc(100% - 180px);
+    width: calc(100% - 160px);
     margin: auto;
     
 }
